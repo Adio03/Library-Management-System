@@ -1,0 +1,168 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+
+    margin:0;
+    padding:0;
+    border: none;
+    outline:none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    background: rgb(219,219,219);
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px;
+    background: #fff;
+}
+/* Style for the search button */
+.search-button {
+    background-color: #333; /* Dark background color */
+    color: #7c7474; /* White text color */
+    border: black; /* No border */
+    padding: 10px 20px; /* Padding around the button text */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease-in-out; /* Smooth background color transition */
+}
+
+/* Hover effect for the search button */
+.search-button:hover {
+    background-color: #555;
+}
+
+
+/*.search-container{*/
+/*    padding: unset;*/
+/*    width: ;*/
+/*    background: rgb(33, 26, 26);*/
+/*    border-top-right-radius: 3px;*/
+/*    border-bottom-left-radius: 5px;*/
+
+/*}*/
+/*.search-button{*/
+/*    display: block;*/
+/*    cursor: pointer;*/
+/*}*/
+.container-bar{
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+nav{
+    background: #fff;
+}
+.navigation{
+    padding: 1px;
+    display:flex;
+    flex-direction: column;
+
+}
+.navigation span{
+    color:gray;
+    margin:1rem 3rem;
+    font-size: 12px;
+
+}
+.navigation a{
+    width: 100%;
+    padding: 0.8rem;
+    font-weight: 500;
+    font-size: 15px;
+    color:rgb(100,100,100);
+
+}
+.navigation a:hover{
+    background: rgb(235,235,235);
+
+}
+.navigation .active{
+    border-left: 2px solid rgb(100,100,100);
+}
+.main-body{
+    padding: 20px;
+    flex:1;
+}
+.add-user-table{
+    display: flex;
+    justify-content: space-between;
+}
+.list_one,.list_two{
+    flex:1;
+    padding: 10px;
+}
+
+
+.add-user-button{
+    display: block;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor:pointer;
+    background: #797570;
+}
+.user-tables, .add_books_table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+
+}
+.user-tables th, .add_books_table th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+.user-tables tr:nth-child(even), .add_books_table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.user-tables td, .add_books_table td {
+    padding: 8px;
+    text-align: center;
+}
+.add-user-button, #add-books {
+    background-color: #817f7b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.add-user-button:hover{
+    background-color: #555
+}
+
+.buttons-:hover{
+    background-color: #555
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
