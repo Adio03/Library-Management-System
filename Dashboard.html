@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DashBoard</title>
+    <link rel="stylesheet" href="DashBoard.css">
+    <script src="sign.js"defer></script>
+</head>
+<body>
+
+<header class="header">
+    <div class="header_Design">
+        <span>Achievers library</span>
+        <div class="search-container">
+            <label for="search-input"></label>
+            <input class="input_class" id="search-input" type="search" placeholder="search">
+            <button class="search-button" type="submit">Search</button>
+        </div>
+    </div>
+</header>
+
+<div class="container-bar">
+    <nav>
+        <div class="navigation">
+            <span>Menu</span>
+            <a href="#" class="active">Dashboard</a>
+            <a href="#">Profile</a>
+            <a href="#">History</a>
+            <a href="#">Application</a>
+            <a href="#">My Account</a>
+            <a href="#">Document</a>
+        </div>
+    </nav>
+
+    <div class="main-body">
+        <h2> Admin Dashboard</h2>
+        <div class="user-dashboard">
+            <h1>Welcome Emmanuel chuwkma</h1>
+        </div>
+
+        <div class="add-user-table">
+            <div class="list_one">
+                <h3>User list</h3>
+                <button class="add-user-button" id="add-user" type="submit">add user</button>
+                <table class="user-tables" id="user-list-table">
+
+                    <tbody>
+                    <tr>
+                        <th>User ID</th>
+                        <th>User name</th>
+                        <th>Book Issued</th>
+                        <th>Return Date</th>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="list_two">
+                <h3>Book Lists</h3>
+                <table class="add_books_table" id="book-list-table">
+                    <div>
+                        <label for="book_title"></label><input type="text" id="book_title" placeholder="Title">
+                        <label for="author_name"></label><input type="text" id="author_name" placeholder="author">
+                        <label for="isbn"></label><input type="text" id="isbn" placeholder="ISBN">
+                        <label for="available"></label><input type="text" id="available" placeholder="Available">
+                        <button onclick="addBook()" class="buttons-">Add New Book</button>
+                        <button onclick="clear()" class="clear">clear</button>
+
+                    </div>
+                    <tbody>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>ISBN</th>
+                        <th>Available</th>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+</div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
